@@ -8,11 +8,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundColor: {
-        white: "hsl(0, 0%, 100%)",
-        "light-pink": "hsl(275, 100%, 97%)",
-        "grayish-purple": "hsl(292, 16%, 49%)",
-        "dark-purple": "hsl(292, 42%, 14%)"
+      colors: {
+        "dark-cyan": "hsl(158, 36%, 37%)",
+        cream: "hsl(30, 38%, 92%)",
+        "very-dark-blue": "hsl(212, 21%, 14%)",
+        "dark-grayish-blue": "hsl(228, 12%, 48%)",
+        white: "hsl(0, 0%, 100%)"
+      },
+      fontFamily: {
+        fraunces: ["var(--font-fraunces)", "serif"],
+        montserrat: ["var(--font-montserrat)", "sans-serif"]
       }
     }
   },
