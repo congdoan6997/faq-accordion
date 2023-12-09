@@ -5,7 +5,7 @@ import { data } from "@/utils/index";
 import { AccordionCard } from "@/components";
 export default function Home() {
   return (
-    <div className=' h-screen bg-light-pink flex justify-center items-center '>
+    <div className=' min-h-screen bg-light-pink flex justify-center items-center '>
       <div className='flex flex-col  bg-white p-6 rounded-xl shadow-xl w-4/5 sm:w-[30%] '>
         <div className='flex'>
           <Image
